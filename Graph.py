@@ -1,5 +1,11 @@
 """
+Graph Pseudocode
+"""
+
+"""
 Depth-first search:
+
+O(V) space complexity in the worst case.
 
 To find the set of vertices reachable from an initial vertex vs
 Create and Initialize set of reachable vertices
@@ -15,6 +21,8 @@ While stack is not empty
 
 """
 Breadth-first search:
+
+O(V) space complexity in the worst case.
 
 Initialize an empty set of visited vertices.
 Initialize an empty queue (BFS). Add vi to the queue.

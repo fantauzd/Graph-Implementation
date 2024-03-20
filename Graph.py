@@ -44,3 +44,9 @@ While the priority queue is not empty:
             Insert vi to the priority queue with distance (priority) d + di.
 """
 
+
+"""
+Space Complexity of Graph representations:
+Adjacency list: O(|V| + |E|)
+Adjacency matrix: O(|V|2)
+"""

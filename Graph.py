@@ -29,5 +29,18 @@ While priority queue is not empty
         For all neighbors, vj, of v
         If vj is not is set of reachable vertices, combine cost of reaching v
         with cost to travel from v to vj, and add to priority queue 
+        
+        
+Initialize an empty map/hash table representing visited vertices.
+    Key is the vertex v.
+    Value is the min distance d to vertex v.
+Initialize an empty priority queue, and insert vs into it with distance (priority) 0.
+While the priority queue is not empty:
+    Remove the first element (a vertex) from the priority queue and assign it to v. Let d be v’s distance (priority).
+    If v is not in the map of visited vertices:
+        Add v to the visited map with distance/cost d.
+        For each direct successor vi of v:
+            Let di equal the cost/distance associated with edge (v, vi).
+            Insert vi to the priority queue with distance (priority) d + di.
 """
 

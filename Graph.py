@@ -1,5 +1,5 @@
 """
-Depth-first search the shortest distance algorithm:
+Depth-first search:
 
 To find the set of vertices reachable from an initial vertex vs
 Create and Initialize set of reachable vertices
@@ -10,6 +10,20 @@ While stack is not empty
     Otherwise, add v to set of reachable vertices, then
         For all neighbors, vj, of v
         If vj is not is set of reachable vertices, add to stack
+"""
+
+
+"""
+Breadth-first search:
+
+Initialize an empty set of visited vertices.
+Initialize an empty queue (BFS). Add vi to the queue.
+While the queue is not empty, 
+    dequeue a vertex v.
+    If v is in visited vertices, discard
+    Otherwise, Add v to the set of visited vertices.
+        For each direct successor v’ of v:
+        If v’ is not in the set of visited vertices, enqueue it into the queue
 """
 
 

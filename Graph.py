@@ -5,7 +5,7 @@ Graph Pseudocode
 """
 Depth-first search:
 
-O(V) space complexity in the worst case.
+O(V) space complexity in the worst case. Backtracking Search
 
 To find the set of vertices reachable from an initial vertex vs
 Create and Initialize set of reachable vertices

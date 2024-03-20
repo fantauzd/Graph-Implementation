@@ -16,6 +16,9 @@ While stack is not empty
 """
 Dijkstra’s Shortest Path Algorithm (Weighted Breadth-first:
 
+The complexity of this version of the algorithm is O(|E| log |E|). 
+The innermost loop is executed at most |E| times, and the cost of the instructions inside the loop is O(log |E|).
+
 To find the shortest distance to vertices reachable from an initial vertex vs
 Initialize dictionary of reachable vertices with vs having cost zero,
 and add vs to a priority queue with distance zero
